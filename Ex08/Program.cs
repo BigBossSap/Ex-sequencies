@@ -32,9 +32,9 @@ namespace Ex08
             }
                
             if(creixent)
-                Console.WriteLine("si");
-            else
                 Console.WriteLine("no");
+            else
+                Console.WriteLine("si");
         }
     }
 }

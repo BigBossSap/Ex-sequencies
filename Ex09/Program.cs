@@ -19,10 +19,10 @@ namespace Ex09
             {
 
 
-                if (ant < num)
-                    creixent = false;
-                if (ant > num)
+                if (ant <= num)
                     decreixent = false;
+                if (ant >= num)
+                    creixent = false;
 
                 ant = num;
                 num = Convert.ToInt32(Console.ReadLine());
@@ -36,6 +36,6 @@ namespace Ex09
                 Console.WriteLine("ni una");
         }
 
-    }
+    
     }
 }
