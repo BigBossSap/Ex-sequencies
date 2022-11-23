@@ -11,12 +11,20 @@ namespace Ex10
  termes hi ha una diferència constant (en aquest cas 4)*/
 
 
-            int num;
+            int num, seguent;
 
             Console.WriteLine("num: ");
             num = Convert.ToInt32(Console.ReadLine());
 
+            while (num != 0){
 
+                
+                num = Convert.ToInt32(Console.ReadLine());
+                seguent = num;
+
+
+
+            }
 
 
 
