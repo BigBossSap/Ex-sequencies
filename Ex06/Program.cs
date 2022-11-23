@@ -9,7 +9,7 @@ namespace Ex06
             /*6. Fer un programa que vagi demanant números fins trobar el zero i mostri en pantalla el
 valor més gran.
 */
-            int num, major=0;
+            int num, valor=0;
 
             int digit = 0;
 
@@ -18,17 +18,24 @@ valor més gran.
 
             while (num != 0)
             {
-                                
-                digit = num;
-                if (num > digit)
-                    major = num;
-                num = Convert.ToInt32(Console.ReadLine());
 
+
+
+                if (num > valor)
+                    valor = num;
+                
+
+                num = Convert.ToInt32(Console.ReadLine());
+                
+
+                
+                
 
             }
 
-           
-            Console.WriteLine($"\r La mitjana es: {major} !");
+            
+
+            Console.WriteLine($"\r El mes gran es: {valor} !");
         }
     }
 }
